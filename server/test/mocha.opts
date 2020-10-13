@@ -1,0 +1,4 @@
+--recursive
+--exit
+--full-trace
+--timeout 90000

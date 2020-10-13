@@ -1,3 +1,5 @@
+const {Block} = require("./Block");
+const {Transaction} = require("./Transaction");
 
 class BLockChain {
   constructor() {
@@ -5,7 +7,7 @@ class BLockChain {
   }
 
   createGenesisBlock(){
-    return new Block(0,'01/01/2020', 'Genesis block', '0');
+    return new Block(Date.parse('2020-01-01'), [], '0');
   }
 
   getLatestBlock(){
@@ -33,3 +35,5 @@ class BLockChain {
     return true;
   }
 }
+
+module.exports.BLockChain = BLockChain;

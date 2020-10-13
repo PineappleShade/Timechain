@@ -1,0 +1,9 @@
+{
+    "plugins": [
+        "mocha"
+    ],
+
+    "rules": {
+        "mocha/no-mocha-arrows": "error"
+    }
+}

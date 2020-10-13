@@ -1,8 +1,0 @@
-{
-  "name": "Timesheet-blockchain",
-  "version": "1.0.0",
-  "dependencies": {},
-  "devDependencies": {
-    "crypto-js": "^4.0.0"
-  }
-}

@@ -1,0 +1,11 @@
+{
+  "name": "Timesheet-blockchain",
+  "version": "1.0.0",
+  "dependencies": {
+    "cassandra-driver": "^4.6.0"
+  },
+  "devDependencies": {
+    "crypto-js": "^4.0.0",
+    "elliptic": "^6.5.3"
+  }
+}
